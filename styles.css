@@ -73,6 +73,8 @@ body{
 /* Styles for the Header, Main, & Footer */
 /* Limits the width, adds a background color and padding, and centers them on the page */
 header, main, footer{
+    display: block;
+    unicode-bidi: isolate;
     padding: 1rem;
     width: calc(1000px - 2rem);
     margin: 0 auto;
